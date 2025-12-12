@@ -16,9 +16,19 @@ header {
     text-align: center;
 }
 
-.logo {
-    width: 90px;
-    height: auto;
+.margen-header {
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 20px 0px;
+    font-size: 60px;
+    font-family: "Expletus Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+
 }
 
 /*GRID DEL HOME*/
@@ -44,7 +54,7 @@ header {
 /*h3*/
 h3 {
     text-align: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 
@@ -115,12 +125,14 @@ footer a:hover {
     nav ul {
         gap: 8px;
     }
+    p{
+        margin: 0px 10px;
+    }
 }
 
 @media (min-width: 768px) {
     footer ul {
         flex-direction: row;
-        /* DESKTOP */
         justify-content: center;
         gap: 20px;
     }
