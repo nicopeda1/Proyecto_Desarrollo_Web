@@ -119,7 +119,8 @@ footer a:hover {
 
 @media (min-width: 768px) {
     footer ul {
-        flex-direction: row; /* DESKTOP */
+        flex-direction: row;
+        /* DESKTOP */
         justify-content: center;
         gap: 20px;
     }
